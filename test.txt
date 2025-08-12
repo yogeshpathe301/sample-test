@@ -1,0 +1,4 @@
+New text file added
+if(employee="Yogesh"){
+    log.info("Manager");
+}
