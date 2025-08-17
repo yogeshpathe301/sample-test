@@ -1,4 +1,4 @@
 New text file added
 if(employee="Yogesh"){
-    log.info("CEO");
+    log.info("Senior Manager");
 }
