@@ -11,9 +11,9 @@ def enrich_customer_data(customer_record):
         risk_score = 5
 
     loyalty_points = customer_record.get("loyalty_points", 0)
-    if loyalty_points > 1000:
+    if loyalty_points > 2000:
         tier = "GOLD"
-    elif loyalty_points > 500:
+    elif loyalty_points > 700:
         tier = "SILVER"
     else:
         tier = "BRONZE"
